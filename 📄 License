@@ -1,0 +1,23 @@
+---
+
+### **📄 Updated Setup File (`boom-token-reward-setup.md`)**
+```md
+# 🚀 Boom Token Reward – Complete Setup Guide
+
+Boom Token Reward is a **DeFi rewards system** designed for BOOM token holders.  
+It allows secure **reward distribution** and tracking.
+
+---
+
+## 📜 Smart Contract Details
+Your contract is deployed at:
+- **Contract Address:** `0xcd6a51559254030ca30c2fb2cbdf5c492e8caf9c`
+- **Pair Address:** `0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c`
+
+---
+
+## 📌 9. Push Everything to GitHub
+```sh
+git add .
+git commit -m "Docs: Add pair address and contract details"
+git push origin main
