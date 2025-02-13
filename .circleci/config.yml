@@ -1,0 +1,57 @@
+version: 2.1
+jobs:
+  test:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run:
+          name: Run tests
+          command: echo 'replace me with real tests!' && false
+  build:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run:
+          name: Build an artifact
+          command: touch example.txt
+      - store_artifacts:
+          path: example.txt
+  deploy:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - run:
+          name: deploy
+          command: "#e.g. ./deploy.sh"
+      - run:
+          name: found github actions config
+          command: ":"
+  evals-test-assertions-job:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - evals/test:
+          assertions: assertions.json
+          metrics: eval_results.json
+          results: test_results.xml
+workflows:
+  example:
+    jobs:
+      - test:
+          context: []
+      - build:
+          requires:
+            - test
+          context: []
+      - deploy:
+          requires:
+            - test
+          context: []
+  test-eval-workflow:
+    jobs:
+      - evals-test-assertions-job
+orbs:
+  evals: circleci/evals@2.0
