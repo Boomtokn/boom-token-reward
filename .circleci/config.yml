@@ -54,4 +54,4 @@ workflows:
     jobs:
       - evals-test-assertions-job
 orbs:
-  evals: circleci/evals@2.0
+  evals: circleci/evals@2.0.1
