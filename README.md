@@ -17,3 +17,5 @@ It allows secure **reward distribution** and tracking.
 git clone https://github.com/Boomtokn/boom-token-reward.git
 cd boom-token-reward
 npm install
+
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/Gwm84TAkPc2zBD9x8AJP7v/6eBxQSBnoCZdQNFbZQyr68/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/Gwm84TAkPc2zBD9x8AJP7v/6eBxQSBnoCZdQNFbZQyr68/tree/main)
