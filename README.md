@@ -1,5 +1,5 @@
-# 🚀 Boom Token Reward
 [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/Gwm84TAkPc2zBD9x8AJP7v/6eBxQSBnoCZdQNFbZQyr68/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/Gwm84TAkPc2zBD9x8AJP7v/6eBxQSBnoCZdQNFbZQyr68/tree/main)
+
 
 # 🚀 Boom Token Reward DApp
 
