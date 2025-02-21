@@ -28,3 +28,20 @@ Users can connect their Web3 wallet, check their BOOM balance, and claim rewards
 │── script.js    # Web3 Functionality
 │── style.css    # Styling & Dark Mode
 │── README.md    # Documentation
+
+🎯 How It Works
+	1.	Click “Connect Wallet” to connect your MetaMask/Web3 wallet.
+	2.	Your BOOM token balance will be displayed automatically.
+	3.	Click “Claim Rewards” to claim your available rewards.
+	4.	Toggle Dark Mode using the 🌙 button.
+
+ 🤝 Contribution
+
+Pull requests are welcome! Feel free to improve the UI, add features, or optimize the smart contract interactions.
+
+📝 License
+This project is licensed under the MIT License.
+
+🚀 Developed by David Okeamah & Boom Token Team.
+
+
